@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* ----------[ DESKTOP ]---------- */
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    background-color: #008080;
+    overflow: hidden;
+}
+
+/* desktop folder icons */
+#desktop {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+
+.icon {
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+}
+
+.icon p {
+    margin-top: 4px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+/* ----------[ WINDOW ]---------- */
+
+/* windows */
+.window {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 10;
+    width: 400px;
+    display: none;
+}
+
+.window .window-body {
+    padding: 20px;
+}
+
+/* dropdown menu */
+select {
+    margin-top: 8px;
+    width: 100%;
+}
+
+/* change cursor icon when dragging window */
+.title-bar {
+    cursor: move;
+}
+
+/* ----------[ TASKBAR ]---------- */
+
+/* taskbar layout (split into left, center, right) */
+#taskbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to top, #245edb, #3a8dde);
+    display: flex;
+    box-shadow: inset 0 1px #ffffff88;
+}
+  
+#taskbar-left,
+#taskbar-center,
+#taskbar-right {
+    display: flex;
+    align-items: center;
+}
+
+#taskbar-center {
+    flex-grow: 1;
+    padding: 0 5px;
+}
+
+#taskbar-right {
+    /* padding-right: 5px; */
+}
+  
+/* start button */
+#start-button {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: black -2px 2px 0;
+
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 30px;
+    gap: 5px;
+    
+    background: linear-gradient(to bottom, #78e25d, #4c9f2c);
+    /* border-right: 1px solid #ffffff; */
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+}
+  
+#start-button img {
+    width: 30px;
+    height: auto;
+    filter: drop-shadow(-1.5px 1.5px 0 black);
+}
+  
+/* clock */
+#clock {
+    color: white;
+    font-size: 14px;
+    white-space: nowrap;
+    min-width: 70px;
+}
+  
+.taskbar-app {
+    color: white;
+    font-size: 12px;
+
+    display: flex;
+    align-items: center;
+    height: 28px;
+    padding: 6px 35px;
+    margin-right: 4px;
+
+    background: linear-gradient(to top, #4a87e6, #71a9f7);
+    border: 1px outset #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+#taskbar-apps {
+    display: flex;
+}

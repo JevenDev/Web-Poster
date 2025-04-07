@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB POSTER: GRADEX 110</title>
+    <link rel="stylesheet" href="https://botoxparty.github.io/XP.css/XP.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- DESKTOP -->
+    <div id="desktop">
+        <div class="icon" data-window="gradex-info">
+            <img src="images/folderXP.png" alt="Folder Icon">
+            <p>Gradex Info</p>
+        </div>
+        <div class="icon" data-window="select-student">
+            <img src="images/folderXP.png" alt="Folder Icon">
+            <p>Select a Student</p>
+        </div>
+    </div>
+
+    <div class="window" id="gradex-info">
+        <div class="title-bar">
+            <div class="title-bar-text">Gradex Info</div>
+                <div class="title-bar-controls">
+                    <button class="close-btn" aria-label="Close"></button>
+                </div>
+            </div>
+        <div class="window-body">
+            <p>Welcome to GRADEX 110! Explore student work by selecting a category or interacting with the desktop.</p>
+        </div>
+    </div>
+
+    <div class="window" id="select-student">
+        <div class="title-bar">
+            <div class="title-bar-text">Select a Student</div>
+            <div class="title-bar-controls">
+                <button class="close-btn" aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body">
+            <label for="student-select">Choose a Program:</label>
+            <select id="student-select">
+                <option value="graphic">Graphic Design</option>
+                <option value="photo">Photography</option>
+                <option value="industrial">Industrial Design</option>
+            </select>
+            <div id="student-display"></div>
+        </div>
+    </div>
+
+    <div id="taskbar">
+        <div id="taskbar-left">
+            <div id="start-button">
+                <img src="images/XP-logo.png" alt="Start Icon" />
+                <span>start</span>
+            </div>
+        </div>
+        <div id="taskbar-center">
+            <div id="taskbar-apps"></div>
+        </div>
+        <div id="taskbar-right">
+            <div id="clock">00:00</div>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
