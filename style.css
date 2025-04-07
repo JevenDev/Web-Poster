@@ -20,15 +20,26 @@ body {
 }
 
 .icon {
-    text-align: center;
+    display: inline-block;
     width: 80px;
+    text-align: center;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.icon img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
 }
 
 .icon p {
     margin-top: 4px;
     color: white;
     text-shadow: 1px 1px black;
+    font-size: 12px;
 }
 
 /* ----------[ WINDOW ]---------- */
@@ -47,10 +58,64 @@ body {
     padding: 20px;
 }
 
+/* Gradex Info window */
+#gradex-info{
+    width: 250px;
+    height: 150px;
+}
+
 /* dropdown menu */
 select {
     margin-top: 8px;
     width: 100%;
+}
+
+/* view student button */
+.student-launch {
+    margin-top: 10px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.student-content {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#student-work {
+    max-width: 400px;
+    overflow: hidden;
+}
+
+#student-work .window-body {
+    overflow-y: auto;
+    max-height: 450px;
+}  
+
+.student-work-img {
+    max-width: 300px;
+    display: block;
+    padding-top: 10px;
+}
+
+.student-work-desc {
+    padding-top: 10px;
+    max-width: 300px;
+}
+
+.image-controls {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 10px;
+}
+
+/* image controls buttons */
+.image-controls button {
+    padding: 6px 12px;
+    cursor: pointer;
 }
 
 /* change cursor icon when dragging window */
@@ -71,7 +136,7 @@ select {
     display: flex;
     box-shadow: inset 0 1px #ffffff88;
 }
-  
+
 #taskbar-left,
 #taskbar-center,
 #taskbar-right {
@@ -84,10 +149,37 @@ select {
     padding: 0 5px;
 }
 
-#taskbar-right {
-    /* padding-right: 5px; */
+/* #taskbar-right {
+    padding-right: 5px;
+} */
+
+.taskbar-app {
+    color: white;
+    font-size: 12px;
+
+    display: flex;
+    align-items: center;
+    height: 28px;
+    padding: 6px 35px;
+    margin-right: 4px;
+
+    background: linear-gradient(to top, #4a87e6, #71a9f7);
+    border: 1px outset #ccc;
+    border-radius: 5px;
+    cursor: pointer;
 }
-  
+
+.taskbar-app.focused {
+    font-weight: bold;
+    background: linear-gradient(to top, #467fda, #71a9f7);
+    border: 2px inset #aaa;
+    filter: brightness(0.9);
+}  
+
+#taskbar-apps {
+    display: flex;
+}
+
 /* start button */
 #start-button {
     color: white;
@@ -107,37 +199,17 @@ select {
     border-radius: 0px 15px 15px 0px;
     cursor: pointer;
 }
-  
+
 #start-button img {
     width: 30px;
     height: auto;
     filter: drop-shadow(-1.5px 1.5px 0 black);
 }
-  
+
 /* clock */
 #clock {
     color: white;
     font-size: 14px;
     white-space: nowrap;
     min-width: 70px;
-}
-  
-.taskbar-app {
-    color: white;
-    font-size: 12px;
-
-    display: flex;
-    align-items: center;
-    height: 28px;
-    padding: 6px 35px;
-    margin-right: 4px;
-
-    background: linear-gradient(to top, #4a87e6, #71a9f7);
-    border: 1px outset #ccc;
-    border-radius: 5px;
-    cursor: pointer;
-}
-  
-#taskbar-apps {
-    display: flex;
 }

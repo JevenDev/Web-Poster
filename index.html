@@ -14,19 +14,25 @@
     <!-- DESKTOP -->
     <div id="desktop">
         <div class="icon" data-window="gradex-info">
-            <img src="images/folderXP.png" alt="Folder Icon">
+            <img src="images/info.png" alt="Folder Icon">
             <p>Gradex Info</p>
         </div>
         <div class="icon" data-window="select-student">
             <img src="images/folderXP.png" alt="Folder Icon">
             <p>Select a Student</p>
         </div>
+        <a class="icon github" href="https://github.com/JevenDev/Web-Poster" target="_blank">
+            <img src="images/github.png" alt="GitHub Icon">
+            <p>GitHub</p>
+        </a>
     </div>
 
+    <!-- GRADEX INFO WINDOW -->
     <div class="window" id="gradex-info">
         <div class="title-bar">
             <div class="title-bar-text">Gradex Info</div>
                 <div class="title-bar-controls">
+                    <button class="minimize-btn" aria-label="Minimize"></button>
                     <button class="close-btn" aria-label="Close"></button>
                 </div>
             </div>
@@ -35,24 +41,50 @@
         </div>
     </div>
 
+    <!-- SELECT A STUDENT WINDOW -->
     <div class="window" id="select-student">
         <div class="title-bar">
             <div class="title-bar-text">Select a Student</div>
             <div class="title-bar-controls">
+                <button class="minimize-btn" aria-label="Minimize"></button>
                 <button class="close-btn" aria-label="Close"></button>
             </div>
         </div>
         <div class="window-body">
             <label for="student-select">Choose a Program:</label>
             <select id="student-select">
-                <option value="graphic">Graphic Design</option>
-                <option value="photo">Photography</option>
-                <option value="industrial">Industrial Design</option>
+                <option value="" disabled selected>Select a Student</option>
+                <option value="Graphic Design">Graphic Design</option>
+                <option value="Photography">Photography</option>
+                <option value="Industrial Design">Industrial Design</option>
             </select>
             <div id="student-display"></div>
         </div>
     </div>
 
+    <!-- STUDENT WORK WINDOW -->
+    <div class="window" id="student-work">
+        <div class="title-bar">
+            <div class="title-bar-text">Student Work</div>
+            <div class="title-bar-controls">
+                <button class="minimize-btn" aria-label="Minimize"></button>
+                <button class="close-btn" aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body">
+            <div class="student-content">
+                <p class="student-work-title"><strong>Artwork Title</strong></p>
+                <img class="student-work-img" src="images/sample-work.png" alt="Student Work">
+                <div class="image-controls">
+                    <button id="prev-work">◀</button>
+                    <button id="next-work">▶</button>
+                </div>
+                <p class="student-work-desc">"Description here."</p>
+            </div>              
+        </div>
+    </div>
+
+    <!-- TASKBAR -->
     <div id="taskbar">
         <div id="taskbar-left">
             <div id="start-button">
