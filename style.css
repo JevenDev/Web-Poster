@@ -12,7 +12,7 @@ body {
     overflow: hidden;
 }
 
-/* desktop folder icons */
+/* desktop BG & folder icons */
 #desktop {
     display: flex;
     gap: 10px;
@@ -94,6 +94,13 @@ select {
     max-height: 450px;
 }  
 
+.student-work-title {
+    font-size: 16px;
+    font-weight: bold;
+    overflow-wrap: break-word;
+    max-width: 300px;
+}
+
 .student-work-img {
     max-width: 300px;
     display: block;
@@ -101,6 +108,7 @@ select {
 }
 
 .student-work-desc {
+    font-size: 14px;
     padding-top: 10px;
     max-width: 300px;
 }
@@ -197,7 +205,7 @@ select {
 .taskbar-app.focused {
     font-weight: bold;
     background: linear-gradient(to top, #467fda, #71a9f7);
-    border: 2px inset #aaa;
+    border: 1px inset #aaa;
     filter: brightness(0.9);
 }  
 
@@ -238,3 +246,35 @@ select {
     white-space: nowrap;
     min-width: 70px;
 }
+
+/* ----------[ START MENU ]---------- */
+
+#start-menu {
+    position: absolute;
+    bottom: 50px; /* height of taskbar */
+    left: 0;
+    width: 200px;
+    background: #ececec;
+    border: 2px solid #000;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+
+#start-menu ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+#start-menu li {
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+#start-menu li:hover {
+    background-color: #c0c0c0;
+}
+
+.hidden {
+    display: none;
+}  

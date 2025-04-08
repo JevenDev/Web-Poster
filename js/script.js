@@ -9,54 +9,54 @@ $(document).ready(function () {
     // each work has a title, image, and description
     const students = {
         "Graphic Design": {
-            name: "Student 1",
+            name: "Jeven Randhawa",
             works: [
                 {
-                    title: "Artwork Title 1",
-                    img: "images/sample-work.png", 
-                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dolor non nisl semper, dignissim accumsan massa condimentum. Mauris sodales lacus sit amet sem fermentum, et fermentum massa ornare. Donec lacinia, ligula et malesuada iaculis, eros eros sagittis enim, quis blandit ex ligula sed sapien. Phasellus vitae nisl nunc. Suspendisse dignissim, lacus auctor sagittis eleifend, ligula lorem egestas elit, sit amet sodales arcu metus finibus lectus. Nullam vulputate at ante vitae ultricies. Nunc in porttitor dolor, vulputate ullamcorper diam. Aenean vestibulum enim eu facilisis sagittis."},
+                    title: '"eternal"',
+                    img: "images/GD-img1.png", 
+                    desc: "This piece was created using Photoshop. It features characters from the game Elden Ring."},
                 { 
-                    title: "Artwork Title 2",
-                    img: "images/sample-work.png", 
-                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dolor non nisl semper, dignissim accumsan massa condimentum. Mauris sodales lacus sit amet sem fermentum, et fermentum massa ornare. Donec lacinia, ligula et malesuada iaculis, eros eros sagittis enim, quis blandit ex ligula sed sapien. Phasellus vitae nisl nunc. Suspendisse dignissim, lacus auctor sagittis eleifend, ligula lorem egestas elit, sit amet sodales arcu metus finibus lectus. Nullam vulputate at ante vitae ultricies. Nunc in porttitor dolor, vulputate ullamcorper diam. Aenean vestibulum enim eu facilisis sagittis."},
+                    title: '"Whole Lotta Red - Reimagined"',
+                    img: "images/GD-img2.png", 
+                    desc: 'This piece was created using Photoshop. It features a reimagining of the album cover for "Whole Lotta Red" by Playboi Carti.'},
                 { 
-                    title: "Artwork Title 3",
-                    img: "images/sample-work.png", 
-                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dolor non nisl semper, dignissim accumsan massa condimentum. Mauris sodales lacus sit amet sem fermentum, et fermentum massa ornare. Donec lacinia, ligula et malesuada iaculis, eros eros sagittis enim, quis blandit ex ligula sed sapien. Phasellus vitae nisl nunc. Suspendisse dignissim, lacus auctor sagittis eleifend, ligula lorem egestas elit, sit amet sodales arcu metus finibus lectus. Nullam vulputate at ante vitae ultricies. Nunc in porttitor dolor, vulputate ullamcorper diam. Aenean vestibulum enim eu facilisis sagittis."},
+                    title: "cold - EP cover",
+                    img: "images/GD-img3.png", 
+                    desc: 'This piece was created using Photoshop. It features the EP cover for "cold" by flowrpot. This was a collaborative project with the artist, who had some direction they wanted to take, but ultimately left most of it to Jeven (omg thats me).'},
             ]
         },
         "Photography": {
-            name: "Student 2",
+            name: "Jeven Randhawa... again",
             works: [
                 {
-                    title: "Photo Title 1",
-                    img: "images/sample-work.png", 
-                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dolor non nisl semper, dignissim accumsan massa condimentum. Mauris sodales lacus sit amet sem fermentum, et fermentum massa ornare. Donec lacinia, ligula et malesuada iaculis, eros eros sagittis enim, quis blandit ex ligula sed sapien. Phasellus vitae nisl nunc. Suspendisse dignissim, lacus auctor sagittis eleifend, ligula lorem egestas elit, sit amet sodales arcu metus finibus lectus. Nullam vulputate at ante vitae ultricies. Nunc in porttitor dolor, vulputate ullamcorper diam. Aenean vestibulum enim eu facilisis sagittis."},
+                    title: "ALBUM van?",
+                    img: "images/PHOT-img1.jpg", 
+                    desc: 'A van I saw that had the word "ALBUM" on it for some reason. I thought it was funny, so I took a pic.'},
                 { 
-                    title: "Photo Title 2",
-                    img: "images/sample-work.png", 
-                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dolor non nisl semper, dignissim accumsan massa condimentum. Mauris sodales lacus sit amet sem fermentum, et fermentum massa ornare. Donec lacinia, ligula et malesuada iaculis, eros eros sagittis enim, quis blandit ex ligula sed sapien. Phasellus vitae nisl nunc. Suspendisse dignissim, lacus auctor sagittis eleifend, ligula lorem egestas elit, sit amet sodales arcu metus finibus lectus. Nullam vulputate at ante vitae ultricies. Nunc in porttitor dolor, vulputate ullamcorper diam. Aenean vestibulum enim eu facilisis sagittis."},
+                    title: "boring",
+                    img: "images/PHOT-img2.jpg", 
+                    desc: "Obligatory photo of the CN Tower. I have too many of these for literally no reason. It's not even that cool."},
                 { 
-                    title: "Photo Title 3",
-                    img: "images/sample-work.png", 
-                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dolor non nisl semper, dignissim accumsan massa condimentum. Mauris sodales lacus sit amet sem fermentum, et fermentum massa ornare. Donec lacinia, ligula et malesuada iaculis, eros eros sagittis enim, quis blandit ex ligula sed sapien. Phasellus vitae nisl nunc. Suspendisse dignissim, lacus auctor sagittis eleifend, ligula lorem egestas elit, sit amet sodales arcu metus finibus lectus. Nullam vulputate at ante vitae ultricies. Nunc in porttitor dolor, vulputate ullamcorper diam. Aenean vestibulum enim eu facilisis sagittis."},
+                    title: "Sammy",
+                    img: "images/PHOT-img3.jpg", 
+                    desc: "I named him Sammy. He was chilling with us at the cottage I stayed at last summer. Chill guy frfr"},
             ]
         },
-        "Industrial Design": {
-            name: "Student 3",
+        "Digital Futures": {
+            name: "Yes, it's Jeven again",
             works: [
                 {
-                    title: "Design Title 1",
-                    img: "images/sample-work.png", 
-                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dolor non nisl semper, dignissim accumsan massa condimentum. Mauris sodales lacus sit amet sem fermentum, et fermentum massa ornare. Donec lacinia, ligula et malesuada iaculis, eros eros sagittis enim, quis blandit ex ligula sed sapien. Phasellus vitae nisl nunc. Suspendisse dignissim, lacus auctor sagittis eleifend, ligula lorem egestas elit, sit amet sodales arcu metus finibus lectus. Nullam vulputate at ante vitae ultricies. Nunc in porttitor dolor, vulputate ullamcorper diam. Aenean vestibulum enim eu facilisis sagittis."},
+                    title: "Pareidolia: Title Screen UI Prototype",
+                    img: "images/DG-img1.gif", 
+                    desc: "A prototype of the Title Screen I worked on for a 3D Game Design course project. The logo in the beginning was made by one of the other members."},
                 { 
-                    title: "Design Title 2",
-                    img: "images/sample-work.png", 
-                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dolor non nisl semper, dignissim accumsan massa condimentum. Mauris sodales lacus sit amet sem fermentum, et fermentum massa ornare. Donec lacinia, ligula et malesuada iaculis, eros eros sagittis enim, quis blandit ex ligula sed sapien. Phasellus vitae nisl nunc. Suspendisse dignissim, lacus auctor sagittis eleifend, ligula lorem egestas elit, sit amet sodales arcu metus finibus lectus. Nullam vulputate at ante vitae ultricies. Nunc in porttitor dolor, vulputate ullamcorper diam. Aenean vestibulum enim eu facilisis sagittis."},
+                    title: "CEREAL BOX YAY",
+                    img: "images/DG-img2.png", 
+                    desc: "I made this cereal box texture for the game I worked on in the 3D Game Design course."},
                 { 
-                    title: "Design Title 3",
-                    img: "images/sample-work.png", 
-                    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus venenatis dolor non nisl semper, dignissim accumsan massa condimentum. Mauris sodales lacus sit amet sem fermentum, et fermentum massa ornare. Donec lacinia, ligula et malesuada iaculis, eros eros sagittis enim, quis blandit ex ligula sed sapien. Phasellus vitae nisl nunc. Suspendisse dignissim, lacus auctor sagittis eleifend, ligula lorem egestas elit, sit amet sodales arcu metus finibus lectus. Nullam vulputate at ante vitae ultricies. Nunc in porttitor dolor, vulputate ullamcorper diam. Aenean vestibulum enim eu facilisis sagittis."},
+                    title: "Collection of UI elements",
+                    img: "images/DG-img3.png", 
+                    desc: "This is a collection of UI elements I made for the game I worked on in the 3D Game Design course. The UI elements were all made in Photoshop, and the game was made in Unity."},
             ]
         }
     };
@@ -146,6 +146,19 @@ $(document).ready(function () {
         $('.student-work-desc').text(work.desc);        
     });
 
+    
+    // toggle start menu
+    $('#start-button').on('click', function (e) {
+        $('#start-menu').toggleClass('hidden');
+    });
+    
+    // hide start menu when clicking anywhere else
+    $(document).on('click', function (e) {
+        if (!$(e.target).closest('#start-button, #start-menu').length) {
+        $('#start-menu').addClass('hidden');
+        }
+    });
+
     // handles click event on desktop icons (except github icon cause its a link)
     // when icon clicked, show corresponding window and add to the taskbar if not present
     $('.icon:not(.github)').on('click', function () {
@@ -194,7 +207,26 @@ $(document).ready(function () {
         $(`.taskbar-app[data-window="${winId}"]`).remove();
     });
 
+    // wallpaper change button
+    // changes the wallpaper to next color in array
+    const wallpapers = [
+        '#008080', // aqua/tealish
+        '#272739', // dark purple
+        '#004d40', // posh looking green lol
+        '#9595dc', // light purple
+        '#263238'  // gray
+    ];
+    let currentWallpaper = 0;
+    
+    $('#change-wallpaper').on('click', function () {
+        currentWallpaper = (currentWallpaper + 1) % wallpapers.length;
+        $('body').css('background-color', wallpapers[currentWallpaper]);
+        $('#start-menu').addClass('hidden');
+    });    
+
     // CLOCK YAYYYYYY
+    // took inspiration from https://www.w3schools.com/js/tryit.asp?filename=tryjs_timing_clock
+    // but made it my own with some jquery
     function updateClock() {
         const now = new Date();
         let hours = now.getHours();
