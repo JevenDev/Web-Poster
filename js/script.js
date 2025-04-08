@@ -30,15 +30,15 @@ $(document).ready(function () {
             works: [
                 {
                     title: "ALBUM van?",
-                    img: "images/PHOT-img1.jpg", 
+                    img: "images/PHOT-img1.JPG", 
                     desc: 'A van I saw that had the word "ALBUM" on it for some reason. I thought it was funny, so I took a pic.'},
                 { 
                     title: "boring",
-                    img: "images/PHOT-img2.jpg", 
+                    img: "images/PHOT-img2.JPG", 
                     desc: "Obligatory photo of the CN Tower. I have too many of these for literally no reason. It's not even that cool."},
                 { 
                     title: "Sammy",
-                    img: "images/PHOT-img3.jpg", 
+                    img: "images/PHOT-img3.JPG", 
                     desc: "I named him Sammy. He was chilling with us at the cottage I stayed at last summer. Chill guy frfr"},
             ]
         },
