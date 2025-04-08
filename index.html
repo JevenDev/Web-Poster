@@ -25,6 +25,10 @@
             <img src="images/github.png" alt="GitHub Icon">
             <p>GitHub</p>
         </a>
+        <div class="icon" data-window="cmd-prompt">
+            <img src="images/cmd.png" alt="Command Prompt">
+            <p>Command</p>
+        </div>          
     </div>
 
     <!-- GRADEX INFO WINDOW -->
@@ -84,6 +88,23 @@
         </div>
     </div>
 
+    <!-- COMMAND PROMPT WINDOW -->
+    <div class="window cmd-window" id="cmd-prompt">
+        <div class="title-bar">
+            <div class="title-bar-text">Command Prompt</div>
+            <div class="title-bar-controls">
+                <button class="minimize-btn" aria-label="Minimize"></button>
+                <button class="close-btn" aria-label="Close"></button>
+            </div>
+        </div>
+        <div class="window-body">
+            <pre class="cmd-content">Microsoft® Windows DOS
+&#10094;C&#10095; Copyright Microsoft Corp 1990-2001.
+<br>C:\WINDOWS\SYSTEM32> Made with <3 by Jeven!!!<span class="cmd-cursor">█</span>
+            </pre>
+        </div>
+    </div>
+
     <!-- TASKBAR -->
     <div id="taskbar">
         <div id="taskbar-left">
@@ -102,6 +123,7 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
